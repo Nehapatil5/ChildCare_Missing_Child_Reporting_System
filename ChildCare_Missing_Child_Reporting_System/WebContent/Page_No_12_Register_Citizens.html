@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="ISO-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Register Citizen</title>
+
+  <!-- AdminKit CSS -->
+  <link href="css/app.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Custom Navy Blue Button CSS -->
+  <style>
+    .btn-navy {
+      background-color: #001f3f;
+      color: white;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-navy:hover {
+      background-color: #001233;
+      color: white;
+    }
+  </style>
+</head>
+
+<body style="background-image: url('img/avatars/back7.png'); background-size: cover;">
+  <main class="d-flex w-100">
+    <div class="container d-flex flex-column">
+      <div class="row vh-100">
+        <div class="col-sm-10 col-md-9 col-lg-8 mx-auto d-table h-100">
+          <div class="d-table-cell align-middle">
+            <div class="card">
+              <div class="card-body">
+                <div class="m-sm-4">
+                  <div class="text-center mt-4">
+                    <h1 class="h2">Register as Citizen</h1>
+                    <p class="lead">Create your account to report and track missing child cases</p>
+                  </div>
+                  
+                  <form action="Page_No_5_Register_Citizens" method="post">
+                    <div class="mb-3">
+                      <label class="form-label">Name</label>
+                      <input type="text" name="name" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Contact</label>
+                      <input type="text" name="contact" class="form-control" placeholder="Mobile number" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Address</label>
+                      <input type="text" name="address" class="form-control" placeholder="Enter your address" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Email</label>
+                      <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input type="password" name="password" class="form-control" placeholder="Choose a password" required>
+                    </div>
+
+                    <div class="text-center mt-4">
+                      <button type="submit" class="btn btn-lg btn-navy w-100">Register</button>
+                    </div>
+
+                    <div class="mt-3 text-center">
+                      <small>Already registered? <a href="Page_No_13_Citizen_Login.html">Login here</a></small>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- /.d-table-cell -->
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </main>
+
+  <!-- AdminKit JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>

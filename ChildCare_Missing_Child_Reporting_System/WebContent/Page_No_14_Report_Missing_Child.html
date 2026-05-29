@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="ISO-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report Missing Child</title>
+
+  <!-- AdminKit CSS -->
+  <link href="css/app.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar" class="sidebar js-sidebar">
+        <div class="mt-3">
+          <a href="Page_No_17_Citizen_Dashboard.html" class="btn btn-secondary">Back</a>
+        </div>
+      <div class="sidebar-content js-simplebar">
+        <a class="sidebar-brand" href="Page_No_17_Citizen_Dashboard.html">
+          <span class="align-middle">Citizen Dashboard</span>
+        </a>
+        <ul class="sidebar-nav">
+          <li class="sidebar-header">Citizen</li>
+          <li class="sidebar-item active">
+            <a class="sidebar-link" href="Page_No_14_Report_Missing_Child.html">
+              <i class="align-middle" data-feather="alert-circle"></i>
+              <span class="align-middle">Report Missing Child</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="Page_No_18_View reports.jsp">
+              <i class="align-middle" data-feather="eye"></i>
+              <span class="align-middle">View Status</span>
+            </a>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <div class="main">
+      <main class="content">
+        <div class="container-fluid p-0">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <div class="card mt-5">
+                <div class="card-body">
+                  <h3 class="text-center mb-4">Report Missing Child</h3>
+                  <!-- FORM STARTS HERE -->
+                  <form action="Page_No_7_Report_Missing_Child" method="post" enctype="multipart/form-data" >
+                    <div class="mb-3">
+                      <label class="form-label">Child Name</label>
+                      <input type="text" class="form-control" name="child_Name" placeholder="Enter Child Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Age</label>
+                      <input type="number" class="form-control" name="age" placeholder="Enter Child Age" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Last Seen Location</label>
+                      <input type="text" class="form-control" name="lastSeen_Location" placeholder="Enter Last Seen Location" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Image Path</label>
+                      <input type="file" class="form-control" name="image_Path" accept="image" placeholder=" " required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Report Date</label>
+                      <input type="date" class="form-control" name="report_Date" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Description</label>
+                      <textarea class="form-control" name="description" rows="4" placeholder="Enter details about the child or situation" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit Report</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row text-muted">
+            <div class="col-6 text-start">
+              <p class="mb-0">
+                <a class="text-muted" href="#"><strong>ChildCare System</strong></a> &copy;
+              </p>
+            </div>
+           
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- AdminKit JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>

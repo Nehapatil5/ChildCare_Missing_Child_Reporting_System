@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Admin Login | ChildCare System</title>
+
+	<!-- AdminKit CSS -->
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+	<!-- Custom CSS for Navy Blue Buttons -->
+	<style>
+		.btn-navy {
+			background-color: #001f3f;
+			color: white;
+			border: none;
+			transition: background-color 0.3s ease;
+		}
+		.btn-navy:hover {
+			background-color: #001233;
+			color: white;
+		}
+	</style>
+</head>
+
+<body style="background-image: url('img/avatars/back7.png'); background-size: cover;">
+	<main class="d-flex w-100">
+		<div class="container d-flex flex-column">
+			<div class="row vh-100">
+				<div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
+					<div class="d-table-cell align-middle">
+
+						<div class="card">
+							<div class="card-body">
+								<div class="m-sm-4">
+									<div class="text-center mt-4">
+										<h1 class="h2">Admin Login</h1>
+										<p class="lead">Sign in to manage ChildCare System</p>
+									</div>
+									<div class="text-center mb-3">
+										<img src="img/avatars/admin.jfif" alt="Admin Avatar" class="img-fluid rounded-circle" width="120" />
+									</div>
+									<form action="Page_No_1_Admin_Login1" method="post">
+										<div class="mb-3">
+											<label class="form-label">Email</label>
+											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter email" required>
+										</div>
+
+										<div class="mb-3">
+											<label class="form-label">Password</label>
+											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter password" required>
+										</div>
+
+										<div class="text-center mt-4">
+											<button type="submit" class="btn btn-lg btn-navy w-100">Login</button>
+										</div>
+
+										<div class="d-flex justify-content-start mt-3">
+											<a href="index.html" class="btn btn-navy">Back</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.d-table-cell -->
+				</div> <!-- /.col -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</main>
+
+	<!-- AdminKit JS -->
+	<script src="js/app.js"></script>
+</body>
+</html>
