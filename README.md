@@ -67,7 +67,7 @@ A web-based application developed using Java, JSP, Servlet, JDBC, MySQL and Apac
 
 ### Report Missing Child 
 
-![Citizen]
+![Citizen](screenshots/Report%20Missing%20Child.png)
 ## Future Scope
 
 - Face Recognition
