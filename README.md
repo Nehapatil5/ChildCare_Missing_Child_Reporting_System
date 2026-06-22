@@ -59,7 +59,7 @@ A web-based application developed using Java, JSP, Servlet, JDBC, MySQL and Apac
 
 ### Police Dashboard
 
-![Police](screenshots/police.png)
+![Police](screenshots/Police%20Officer%20Dashboard.png)
 
 ## Future Scope
 
