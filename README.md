@@ -51,7 +51,7 @@ A web-based application developed using Java, JSP, Servlet, JDBC, MySQL and Apac
 
 ### Login Page
 
-![Login](screenshots/Role%20Selection%20Portal.png)
+![Login](screenshots/Role%20Selection%20Portal%20(2).png)
 
 ### Admin Dashboard
 
