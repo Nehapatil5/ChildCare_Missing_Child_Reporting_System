@@ -47,6 +47,20 @@ A web-based application developed using Java, JSP, Servlet, JDBC, MySQL and Apac
 
 ✔ Report Tracking
 
+## Screenshots
+
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+
+![Admin](screenshots/admin.png)
+
+### Police Dashboard
+
+![Police](screenshots/police.png)
+
 ## Future Scope
 
 - Face Recognition
