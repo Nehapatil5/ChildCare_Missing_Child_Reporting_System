@@ -61,6 +61,13 @@ A web-based application developed using Java, JSP, Servlet, JDBC, MySQL and Apac
 
 ![Police](screenshots/Police%20Officer%20Dashboard.png)
 
+### Citizen Dashboard
+
+![Citizen](screenshots/Citizen%20Dashboard%20(2).png)
+
+### Report Missing Child 
+
+![Citizen]
 ## Future Scope
 
 - Face Recognition
